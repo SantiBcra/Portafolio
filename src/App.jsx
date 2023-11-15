@@ -42,9 +42,9 @@ function App() {
     <Routes>
         
        <Route path='/Portafolio/' element={<Home/>} />
-       <Route exact path='/Portafolio/estudios' element={<About/>} />
-       <Route exact path='/Portafolio/about' element={<AboutMe/>} />
-       <Route exact path='/Portafolio/proyectos' element={<Proyectos/>} />
+       <Route path='/estudios' element={<About/>} />
+       <Route path='/about' element={<AboutMe/>} />
+       <Route path='/proyectos' element={<Proyectos/>} />
   
   
       
