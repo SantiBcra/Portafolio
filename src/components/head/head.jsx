@@ -33,7 +33,7 @@ function Head() {
 
 <div className='item-cont'>
   
- <Link to ={`/`} >
+ <Link to ={`/Portafolio/`} >
   <div class="items">HOME </div>
   </Link>
 
