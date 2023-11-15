@@ -14,7 +14,7 @@
 h1{
   
 font-family: "Patua One";
-color: rgba(250, 235, 215, 0.904);
+color: rgba(231, 220, 220, 0.973);
 font-size: 60px;
 text-decoration: underline ;
 transition: transform 0.35s ease-out;
@@ -28,7 +28,7 @@ h1:hover{
 
 h2{
   font-family:"Patua One";
-color: rgba(255, 255, 255, 0.89);
+  color: rgba(231, 220, 220, 0.973);
 font-size: 30px;
 
 text-decoration: underline ;
@@ -38,21 +38,21 @@ margin-left: 22px;
 
 h3{
   font-family:"Patua One";
-color: rgb(255, 255, 255);
+  color: rgba(231, 220, 220, 0.973);
 
 font-size: 30px;
 }
 
 h4{
   font-family: "Patua One";
-  color: rgba(255, 255, 255, 0.986);
+  color: rgba(231, 220, 220, 0.973);
   font-size: 26px; 
   transition: ease-out 0s;
 }
 
 a{
   font-family: "Patua One";
-  color: rgba(255, 255, 255, 0.986);
+  color: rgba(231, 220, 220, 0.973);
   font-size: 30px; 
   transition: ease-out 0s;
 }
