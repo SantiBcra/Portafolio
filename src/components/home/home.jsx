@@ -14,7 +14,7 @@ function Home() {
     return (
    <div className='cont'>
     
-<h1>Santiago Becerra</h1>
+<h1 className='hh'>Santiago Becerra</h1>
 
 <h2>FULL STACK DEV:</h2>
 <p> 
@@ -45,7 +45,7 @@ function Home() {
 
 
 
-<div className='vidcont'>
+<div className='cont'>
 <h3> GIT: <a href="https://www.github.com/SantiBcra" target="_blank" rel="noopener noreferrer">  LINK</a> </h3>
 <h3>LINKEDIN: <a href="https://www.linkedin.com/in/santiago-becerra-81361829b/" target="_blank" rel="noopener noreferrer">  LINK</a> </h3> 
 </div>
