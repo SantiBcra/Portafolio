@@ -16,7 +16,7 @@ function Home() {
     
 <h1 className='hh'>Santiago Becerra</h1>
 
-<h2>FULL STACK DEV:</h2>
+<h2 className='hhh'>FULL STACK DEV:</h2>
 <p> 
   HTML - CSS - JS - REACT - REDUX - NODE JS - SEQUELIZE - POSTGRE DB
   </p>
@@ -46,8 +46,8 @@ function Home() {
 
 
 <div className='cont'>
-<h3> GIT: <a href="https://www.github.com/SantiBcra" target="_blank" rel="noopener noreferrer">  LINK</a> </h3>
-<h3>LINKEDIN: <a href="https://www.linkedin.com/in/santiago-becerra-81361829b/" target="_blank" rel="noopener noreferrer">  LINK</a> </h3> 
+<h3 className='hhhh'> GIT: <a href="https://www.github.com/SantiBcra" target="_blank" rel="noopener noreferrer">  LINK</a> </h3>
+<h3 className='hhhh'>LINKEDIN: <a href="https://www.linkedin.com/in/santiago-becerra-81361829b/" target="_blank" rel="noopener noreferrer">  LINK</a> </h3> 
 </div>
   
 

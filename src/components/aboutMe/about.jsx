@@ -28,7 +28,7 @@ function AboutMe() {
 
 
 
-        <h1>About Me:</h1>
+        <h1 className="hh">About Me:</h1>
 
 
         <img className="pictur" src={santiago}></img> 
@@ -58,9 +58,9 @@ function AboutMe() {
       <div className="contactos">
 
               
-              <h3>Phone: +54 351 707 1239</h3>
-              <h3>Mail: santiariel1705@gmail.com</h3>
-              <h3>Intagram: santuch.o</h3>
+              <h3 className="hhhh">Phone: +54 351 707 1239</h3>
+              <h3 className="hhhh">Mail: santiariel1705@gmail.com</h3>
+              <h3 className="hhhh">Intagram: santuch.o</h3>
 
       </div>
           

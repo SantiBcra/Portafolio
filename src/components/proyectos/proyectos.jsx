@@ -48,10 +48,10 @@ function Proyectos() {
     
   <div className='cont'>
             
-  <h1>Proyects:</h1>
+  <h1 className='hh'>Proyects:</h1>
   
   <p>CANCHAS YA:
-  <h3>GIT:<a href='https://github.com/SantiBcra/CanchasYa-PF' target="_blank" rel="noopener noreferrer">LINK </a></h3>
+  <h3 className='hhhh'>GIT:<a href='https://github.com/SantiBcra/CanchasYa-PF' target="_blank" rel="noopener noreferrer">LINK </a></h3>
 
 
   {lengua  !== 'es' && (
@@ -83,7 +83,7 @@ Application to rent, create and review Fields for different sports and different
     </p>
 
     <p>DRIVERS:
-    <h3>GIT:<a href='https://github.com/SantiBcra/PI_Formula-1' target="_blank" rel="noopener noreferrer">LINK </a></h3>
+    <h3 className='hhhh'>GIT:<a href='https://github.com/SantiBcra/PI_Formula-1' target="_blank" rel="noopener noreferrer">LINK </a></h3>
 
     {lengua  !== 'es' && (
 <p>My First React application, create, search, filter and sort F1 drivers.</p> 

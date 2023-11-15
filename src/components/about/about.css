@@ -5,6 +5,8 @@
    
  
     
+
+    
 }
 .img-container{
     display: grid;
@@ -19,3 +21,27 @@
     grid-template-columns: repeat(4, 4fr);
 }
 
+.hh{
+  
+    font-family: "Patua One";
+    color: rgba(231, 220, 220, 0.973);
+    font-size: 60px;
+    text-decoration: underline ;
+    transition: transform 0.35s ease-out;
+    margin-left: 22px;
+    }
+    
+    .hh:hover{
+      
+      filter: drop-shadow(0 0 2em rgba(255, 255, 255, 0.74));
+    }
+
+    .hhhh{
+  
+        font-family:"Patua One";
+        color: rgba(231, 220, 220, 0.973);
+      
+      font-size: 30px;
+        }
+        
+       

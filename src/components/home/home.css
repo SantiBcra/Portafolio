@@ -17,6 +17,26 @@
     filter: drop-shadow(0 0 2em rgba(255, 255, 255, 0.74));
   }
 
+  .hhh{
+  
+    font-family:"Patua One";
+    color: rgba(231, 220, 220, 0.973);
+  font-size: 30px;
+  
+  text-decoration: underline ;
+  margin-left: 22px;
+    }
+
+
+  .hhhh{
+  
+    font-family:"Patua One";
+    color: rgba(231, 220, 220, 0.973);
+  
+  font-size: 30px;
+    }
+    
+
 
       .button_slide {
         color: #FFF;
