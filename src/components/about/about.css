@@ -1,0 +1,20 @@
+.image{
+    opacity: 89%;
+    height: 350px;
+    width: 590px;
+   
+ 
+    
+}
+.img-container{
+    display: grid;
+  
+    justify-content: space-around;
+    justify-items: center;
+    padding-top: 30px;
+    
+}
+.logos{
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+}

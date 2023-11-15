@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+    html {
+        height: 100%;
+      }
+      
+      body {
+        height: 100%;
+        margin: 0;
+        background: #162944;
+      }
+      
+      .button_slide {
+        color: #FFF;
+        border: 3px solid rgb(255, 255, 255);
+        border-radius: 0px;
+        padding: 10px 20px;
+        display: inline-block;
+        font-family: "Fira Mono";
+        font-size: 14px;
+        cursor: pointer;
+        box-shadow: inset 0 0 0 0 #000000;
+        -webkit-transition: ease-out 0.4s;
+        -moz-transition: ease-out 0.4s;
+        transition: ease-out 0.4s;
+      }
+      
+      .slide_down:hover {
+        box-shadow: inset 0 100px 0 0 rgba(141, 17, 17, 0.493);
+      }
+      
+      .slide_right:hover {
+        box-shadow: inset 400px 0 0 0 #D80286;
+      }
+      
+      .slide_left:hover {
+        box-shadow: inset 0 0 0 50px #D80286;
+      }
+      
+      .slide_diagonal:hover {
+        box-shadow: inset 400px 50px 0 0 #D80286;
+      }
+      
+      #outer {
+        width: 364px;
+        margin: 50px auto 0 auto;
+        text-align: center;
+      }
+
+
+.logo{
+    width: 30px;
+    height: 30px;
+    transition: transform 0.35s ease-out;
+    margin-top: 10px;
+    margin-left: 4px;
+    
+}
+.logo:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+    filter: drop-shadow(0 0 2em rgba(255, 255, 255, 0.582));
+
+
+}
+
+.cont{
+  padding-left: 0px;
+  padding-bottom: 10px;
+}
+
+.vidcont{
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #000000a6;
+  
+}

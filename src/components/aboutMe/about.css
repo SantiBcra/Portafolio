@@ -1,0 +1,23 @@
+.parr{
+    font-family: "Fira Mono";
+  color: antiquewhite;
+  
+  padding: 25px 20px;
+}
+
+.contactos{
+  margin-left: 20px;
+ color: antiquewhite;
+  text-decoration:underline;
+}
+
+.pictur{
+  height: 150px;
+  width: 150px;
+  margin-left: 20px;
+  opacity: 80%;
+  
+}
+
+
+

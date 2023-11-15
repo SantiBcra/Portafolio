@@ -1,0 +1,90 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+
+
+
+
+
+
+
+
+
+  
+h1{
+  
+font-family: "Patua One";
+color: rgba(250, 235, 215, 0.904);
+font-size: 60px;
+text-decoration: underline ;
+transition: transform 0.35s ease-out;
+margin-left: 22px;
+}
+
+h1:hover{
+  
+  filter: drop-shadow(0 0 2em rgba(255, 255, 255, 0.74));
+}
+
+h2{
+  font-family:"Patua One";
+color: rgba(255, 255, 255, 0.89);
+font-size: 30px;
+
+text-decoration: underline ;
+margin-left: 22px;
+
+}
+
+h3{
+  font-family:"Patua One";
+color: rgb(255, 255, 255);
+
+font-size: 30px;
+}
+
+h4{
+  font-family: "Patua One";
+  color: rgba(255, 255, 255, 0.986);
+  font-size: 26px; 
+  transition: ease-out 0s;
+}
+
+a{
+  font-family: "Patua One";
+  color: rgba(255, 255, 255, 0.986);
+  font-size: 30px; 
+  transition: ease-out 0s;
+}
+a:hover{
+  color: rgb(211, 32, 32);
+}
+
+p{
+  font-family: "Patua One";
+  color: rgba(231, 220, 220, 0.973);
+  font-size: 27px;
+  background-color: rgba(0, 0, 0, 0.911);
+  padding-left:  22px;
+  
+   
+  
+}
+
+
+
+.fondo{
+    background-image: url("../public/arte_pintura_barroco_salon_baile_musicos_1920x1200.jpg"); 
+    
+  
+  /* height: 50vh; */
+  background-position: center;
+  background-size:cover;
+  background-repeat:no repeat
+}
+
+
+
+
+
+

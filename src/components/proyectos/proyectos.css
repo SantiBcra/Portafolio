@@ -1,0 +1,21 @@
+.card-container{
+   display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  padding-bottom: 10px;
+  margin: 0px 10px 10px 10px;
+}
+
+.parr{
+  font-family: "Fira Mono";
+color: antiquewhite;
+
+padding:10px 10px 10px 10px;
+}
+
+
+.vidconttt{
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+}
