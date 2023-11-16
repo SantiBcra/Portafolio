@@ -57,7 +57,7 @@ function Proyectos() {
 
 
   
-  <h2 className='hhh2'>GIT:<a href='https://github.com/SantiBcra/CanchasYa-PF' target="_blank" rel="noopener noreferrer">LINK </a></h2>
+  <h2 className='hhh'>GIT:<a href='https://github.com/SantiBcra/CanchasYa-PF' target="_blank" rel="noopener noreferrer">LINK </a></h2>
 
 
   {lengua  !== 'es' && (
