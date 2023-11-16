@@ -3,9 +3,6 @@
 
 
 
-
-
-
   .hh{
   
     font-family: "Patua One";
@@ -87,6 +84,9 @@ p{
 
 
 .fondo{
+
+
+
     background-image: url("../public/arte_pintura_barroco_salon_baile_musicos_1920x1200.jpg"); 
     
   
@@ -98,6 +98,96 @@ p{
 
 
 
+@media (max-width:1075px){
 
+.fondo{
+  display: grid;
+  grid-template-columns: auto;
+  justify-content:center
+
+}
+
+.nav{
+  
+  margin-bottom: 40px;
+  margin-left: 6px;
+
+}
+
+h1{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.p{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.cont{
+  display: block;
+}
+
+}
+
+@media (max-width:923px){
+
+  .fondo{
+    display: grid;
+    grid-template-columns: (1,1fr);
+    justify-content:center
+  
+  }
+  
+  .item-cont{
+    display:contents;
+    
+    padding: 10px 10px 10px 10px ;
+    margin: 10px 10px 10px 10px;
+  }
+
+  .nav{
+    
+    display: flex;
+    padding-bottom: 20px;
+
+  
+  }
+  
+  h1{
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+  p{
+    display: grid;
+    grid-template-columns: (1,1fr);
+    justify-content:center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+.card-container{
+
+  display: flex;
+  width: auto;
+  justify-content: center;
+  justify-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #000000a6;
+
+}
+  
+
+  .cont{
+    display: grid;
+    grid-template-columns: (1,1fr);
+    justify-content:center
+  }
+  
+  }
+  
 
 

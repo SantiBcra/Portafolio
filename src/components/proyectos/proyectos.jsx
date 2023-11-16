@@ -48,10 +48,16 @@ function Proyectos() {
     
   <div className='cont'>
             
+
+
+                   
   <h1 className='hh'>Proyects:</h1>
   
-  <p>CANCHAS YA:
-  <h3 className='hhhh'>GIT:<a href='https://github.com/SantiBcra/CanchasYa-PF' target="_blank" rel="noopener noreferrer">LINK </a></h3>
+  <h2 className='hhh'>CANCHAS YA:</h2>
+
+
+  
+  <h2 className='hhh2'>GIT:<a href='https://github.com/SantiBcra/CanchasYa-PF' target="_blank" rel="noopener noreferrer">LINK </a></h2>
 
 
   {lengua  !== 'es' && (
@@ -66,24 +72,28 @@ Application to rent, create and review Fields for different sports and different
 
 
 
-
-    <div className='card-container'>
+<div className='vidcont'>
+      <video  width="640" height="360"  controls autoPlay muted>
+  
+  <source src={video}/> 
+  
+      </video>
+  </div> 
       
-    <div className='vidconttt'>
-    <video  width="770" height="470"  controls autoPlay muted>
-
-<source src={video}/> 
-
-    </video>
-</div> 
-    </div>
+  
+    
 
     
 
-    </p>
 
-    <p>DRIVERS:
-    <h3 className='hhhh'>GIT:<a href='https://github.com/SantiBcra/PI_Formula-1' target="_blank" rel="noopener noreferrer">LINK </a></h3>
+    
+      
+      
+  
+
+
+    <h2 className='hhh'>DRIVERS:</h2>
+    <h2 className='hhh'>GIT:<a href='https://github.com/SantiBcra/PI_Formula-1' target="_blank" rel="noopener noreferrer">LINK </a></h2>
 
     {lengua  !== 'es' && (
 <p>My First React application, create, search, filter and sort F1 drivers.</p> 
@@ -95,13 +105,16 @@ Application to rent, create and review Fields for different sports and different
 
 
 
-    <div className='card-container'>
-    <img src={drivers} height="470px" width="770"></img>
-    </div>
+    
 
 
   
-    </p>
+    
+
+
+    <div className='vidcont'>
+    <img src={drivers} height="360" width="640"></img>
+    </div>
     
   </div>
     
