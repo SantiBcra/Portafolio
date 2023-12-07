@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import change from '../../redux/actions/form_actions';
 import espana from "../../../public/espana.png" 
 import eeuu from "../../../public/estados-unidos.png" 
+import logo from "../../../public/Ciclos final - logo S PNG.png"
 import "./head.css"
 
 function Head() {
@@ -11,16 +12,11 @@ function Head() {
   const dispatch = useDispatch();
 
 
- const handleTabClick = (lan) => {
-    dispatch(change(lan));
-  };
-
-
-  useEffect(() => { 
+  // useEffect(() => { 
     
-      dispatch(change("en"));
+  //     dispatch(change("en"));
     
-  }, [dispatch]);
+  // }, [dispatch]);
 
   
   
@@ -29,49 +25,30 @@ function Head() {
 
 
   return (
-<div className='nav'> 
+<nav className='nav'> 
+
+<a href='#home' ><img class='logos' src={logo}></img></a>
+
+
 
 <div className='item-cont'>
-  
- <Link to ={`/Portafolio/`} >
-  <div class="items">HOME </div>
-  </Link>
-
-  <Link to ={`/proyectos`} >
-  <div class="items">MY WORK </div>
-  </Link>
-
-
-
-  <Link to ={`/about`} >
-  <div class="items">ABOUT ME </div>
-  </Link>
-
-  <Link to ={`/estudios`} >
-  <div class="items">EDUCATION </div>
-  </Link>
 
   
-
+  <a href='#proyecto' ><div class="items">PROYECTS </div></a>
+  <a href='#us' ><div class="items">ABOUT US </div></a>
+  <a href='#final' ><div class="items">CONTACT </div></a>
   
 
 </div>
 
-<div className='item-contt'>
+<script type="text/javascript">{
+		window.addEventListener("scroll", function(){
+			var header = document.querySelector("nav");
+			header.classList.toggle("abajo",window.scrollY>0);
+		})}
+	</script>
 
-<Link to ={`/about`} >
-  <div class="contact">CONTACT ME </div>
-  </Link>
-
-<img className='logo' src={espana} onClick={() => handleTabClick('es')} />
-   <br></br>
- <img className='logo' src={eeuu} onClick={() => handleTabClick('en')}/>
-
- 
-
-</div>
-
-</div>
+</nav>
   )
 }
 

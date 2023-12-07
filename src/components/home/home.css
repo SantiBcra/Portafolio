@@ -1,13 +1,184 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 
+
+
+.cartas{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 25px 25px 25px 25px ;
+}
+
+.carta{
+  background-color: #00000000;
+  height: 300px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  
+}
+
+.panel4{
+  height: 800px;
+ display: flex;
+ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 3px #000000d7;
+  background-color: #000000;
+  background-position: center;
+  background-size:cover;
+  background-repeat:no repeat
+ 
+}
+.panel3{
+  height: 820px;
+ 
+  justify-content: center;
+  align-items: center;
+  border-top: solid 3px #000000d7;
+  background-color: #e0e0e0;
+  background-position: center;
+  background-size:cover;
+  background-repeat:no repeat
+ 
+}
+
+.panel{
+  font-family: "Patua One";
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  font-size: 27px;
+  height: 620px; 
+	
+			color: #fff;
+			background: linear-gradient(83deg,#00c3ff,#ff7300,black,#00c3ff,black);
+			background-size: 400% 400%;
+			position: relative;
+			animation: cambiar 15s ease-in-out infinite;
+
+}
+
+.tituloprin{
+  font-family: 'Permanent Marker', cursive;
+
+  font-size: 7rem;
+			letter-spacing: 4px;
+			border: solid 3px #ffffff00;
+			border-radius: 20px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			
+}
+
+.subtitulo{
+  font-family: "Patua One";
+  display: flex;
+align-items: center;
+justify-content: center;
+
+  font-size: 1rem;
+			
+	
+			
+}
+
+@keyframes cambiar{
+  0%{background-position: 0 50%;}
+  50%{background-position: 100% 50%;}
+  100%{background-position: 0 50%;}
+}
+
+
+
+.card{
+  
+  margin: auto;
+  width: 200px;
+  padding-bottom: 100px;
+}
+.panel2{
+ 
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 3px #000000d7;
+  background-color: #000000;
+  background-position: center;
+  background-size:cover;
+  background-repeat:no repeat
+ 
+ 
+
+}
+.white{
+  color: #FFF;
+  padding: 30px 30px 30px 30px;
+}
+
+
+
+
+.pie{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
+
+.fott{
+ 
+  width: 600px;
+  height: 600px;
+   
+}
+
+
+.galeria{
+  display: flex;
+   align-items: center;
+  justify-content: center;
+}
+
+.fotto{
+ 
+  height: 420px;
+  width: 550px;
+  margin-right: 20px;
+     margin-left: 20px;
+     border-radius: 10px;
+}
+
+.fottoV{
+ 
+  height: 420px;
+  width: 330px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  /* margin:  10px 10px 10px 10px; */
+}
 
 .hh{
   
   font-family: "Patua One";
   color: rgba(231, 220, 220, 0.973);
   font-size: 60px;
-  text-decoration: underline ;
+  
   transition: transform 0.35s ease-out;
   margin-left: 22px;
   }
@@ -23,7 +194,7 @@
     color: rgba(231, 220, 220, 0.973);
   font-size: 30px;
   
-  text-decoration: underline ;
+  
   margin-left: 22px;
     }
 
@@ -77,24 +248,35 @@
 
 
 .logo{
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     transition: transform 0.35s ease-out;
-    margin-top: 10px;
-    margin-left: 4px;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    
     
 }
+
+
 .logo:hover{
-  cursor: pointer;
+  
   transform: scale(1.05);
     filter: drop-shadow(0 0 2em rgba(255, 255, 255, 0.582));
 
 
 }
 
-.cont{
-  padding-left: 0px;
+
+.contacto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-top: solid 3px #ffffffd7;
+  padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 50px
+  
 }
 
 .vidcont{
@@ -165,4 +347,9 @@
     justify-content:center
   }
   
+
+
+  
+
+
   }
